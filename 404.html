@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siden ikke funnet!</title>
 
+    <meta http-equiv="refresh" content="5; url=./index.html">
+    <link rel="shortcut icon" href="./src/bug-solid.svg" type="image/x-icon">
+
     <link rel="stylesheet" href="src/style.css">
 </head>
-<body id="error">  
-    <h1>Siden du letter etter eksister ikke, eller den er flyttet til en annen link</h1>
-    <button class="select" id="error-button" onclick="window.location.href='./index.html'">Trykk for å gå hjem</button>
+
+<body id="error">
+    <h1>Siden du letter etter eksister ikke, eller er flyttet til en annen link</h1>
+
+    <p>Du vil bli automatisk omadressert til forsiden til nettstedet. Trykk knappen vist du ikkje blir omadressert etter
+        5 sekunder</p>
+    <button class="select" id="error-button" onclick="window.location.href='./index.html'">Trykk her</button>
 </body>
+
 </html>
