@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    background-color: grey;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 75px;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+.main .select{
+    margin-bottom: 20px;
+    margin: 25px;
+    font-size: 35px;
+    width: 250px;
+    height: 70px;
+    transition: 0.7s;
+}
+
+.main .select:hover {
+    color: black;
+    background-color: white;
+    border-radius: 28px;
+}
+
+.select {
+    font-size: 30px;
+    width: 220px;
+    height: 55px;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+    display: block;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.select:hover {
+    color: black;
+    background-color: white;
+    border-radius: 28px;
+}
+
+.resize {
+    font-size: 30px;
+    width: 220px;
+    height: 55px;
+    border-radius: 18px;
+    background-color: green;
+    color: gold;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.resize:hover {
+    color: green;
+    background-color: gold;
+    border-radius: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button#white {
+    color: black;
+    background-color: white;
+}
