@@ -31,6 +31,10 @@ h1 {
 }
 
 .select {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 30px;
     border-radius: 18px;
     background-color: black;
@@ -73,6 +77,18 @@ button#white {
     color: black;
     background-color: white;
 }
+
+/* ---- Icon ---- */
+
+#icon {
+    width: 40px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+
 
 /* ---- Contact ---- */
 
