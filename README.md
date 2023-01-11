@@ -7,3 +7,4 @@ sider:
 -404 (vis ein ikkje finner filen)
 -mat (viser mat og kva dei koster)
 
+
