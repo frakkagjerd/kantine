@@ -32,8 +32,6 @@ h1 {
 
 .select {
     font-size: 30px;
-    width: 220px;
-    height: 55px;
     border-radius: 18px;
     background-color: black;
     color: white;
@@ -50,7 +48,7 @@ h1 {
 
 .resize {
     font-size: 30px;
-    width: 220px;
+    width: 219px;
     height: 55px;
     border-radius: 18px;
     background-color: green;
