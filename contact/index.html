@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./../src/style.css">
-    <link rel="shortcut icon" href="./src/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../src/icon.png" type="image/x-icon">
 
     <title>Kontakt oss</title>
 </head>
@@ -27,12 +27,15 @@
 
     <button class="select" id="white" onclick="window.location.href='../contact'">Kontakt oss</button>
 
-    <div class="contact-col">
+    <div class="contact">
         <form method="post">
             <input type="text" name="name" placeholder="Enter your name" required>
             <input type="email" name="email" placeholder="Enter email address" required>
             <input type="text" name="subject" placeholder="Enter your subject" required>
             <textarea rows="8" name="message" placeholder="Message" required></textarea>
+
+            <br>
+
             <button type="submit" class="hero-btn red-btn">Send Message</button>
         </form>
     </div>

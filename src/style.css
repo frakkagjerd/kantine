@@ -121,3 +121,22 @@ button#white {
 
 /* ---- Contact ---- */
 
+.contact {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact input {
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    width: 500px;
+}
