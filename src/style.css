@@ -102,7 +102,7 @@ button#white {
 
 /* ---- Icon ---- */
 
-#icon {
+#info-icon {
     width: 40px;
     float: left;
     padding-top: 5px;
@@ -134,9 +134,14 @@ button#white {
     margin-bottom: 17px;
     outline: none;
     border: 1px solid #ccc;
+    border-radius: 22px;
     box-sizing: border-box;
 }
 
 .contact textarea {
     width: 500px;
+}
+
+.submit-button {
+    color 
 }
