@@ -1,3 +1,5 @@
+/* ---- General Things */
+
 
 .menu{
     width: 75px;
@@ -34,6 +36,8 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* ---- Button ---- */
 
 .main {
     display: grid;
@@ -125,8 +129,6 @@ button#white {
     text-align: center;
     
 }
-
-
 
 /* ---- Contact ---- */
 

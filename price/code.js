@@ -1,18 +1,19 @@
-let active = false
-let checked = false
+let active = false;
+let information;
+
 let icon = document.getElementById("info-icon")
 
 function infoClicked() {
 
     if (active == true) {
-        icon.src="../src/square-regular.svg";
+        icon.src="../src/square-check.svg";
         active = false
-        checked = false
+        information = false
     
     } else if (active == false) {
-        icon.src="../src/square-check.svg";
+        icon.src="../src/square-regular.svg";
         active = true
-        checked = true
+        information = true
     }
 }
 
@@ -20,11 +21,11 @@ function infoClicked() {
 function update() {
 
     if (active == true) {
-        icon.src="../src/square-regular.svg";
-    } else if (active == false) {
         icon.src="../src/square-check.svg";
-    }
+    } else if (active == false) {
+        icon.src="../src/square-regular.svg";
 
+    }
     requestAnimationFrame(update)
 }
 
