@@ -1,13 +1,29 @@
 body {
-    text-align: center;
     background-color: grey;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body#error {
+    background-color: #E3242B;
+}
+
+body#under-construction {
+    background-color: orange;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 30px;
     margin-bottom: 75px;
+}
+
+p {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .main {
@@ -78,6 +94,12 @@ button#white {
     background-color: white;
 }
 
+#error-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
 /* ---- Icon ---- */
 
 #icon {
@@ -88,7 +110,33 @@ button#white {
     padding-left: 5px;
 }
 
+/* ---- Images ---- */
+
+.image-left {
+    text-align: center;
+    
+}
+
 
 
 /* ---- Contact ---- */
 
+.contact {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact input {
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    width: 500px;
+}
