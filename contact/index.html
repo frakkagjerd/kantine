@@ -1,41 +1,70 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./../src/style.css">
-    <link rel="shortcut icon" href="../src/icon-dark.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../src/style.css" />
+    <link rel="shortcut icon" href="../src/icon-dark.png" type="image/x-icon" />
 
     <title>Kontakt oss</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Kantine priser</h1>
 
-    <button class="select" onclick="window.location.href='../price'">Priser</button>
+    <button class="select" onclick="window.location.href='../price'">
+      Priser
+    </button>
 
-    <button class="select" onclick="window.location.href='../information'">Informasjon</button>
+    <button class="select" onclick="window.location.href='../information'">
+      Informasjon
+    </button>
 
-    <button class="select" id="white" onclick="window.location.href='../contact'">Kontakt oss</button>
+    <button
+      class="select"
+      id="white"
+      onclick="window.location.href='../contact'"
+    >
+      Kontakt oss
+    </button>
 
     <div class="contact">
-        <form method="post">
-            <input type="text" name="name" placeholder="Enter your name" required>
-            <input type="email" name="email" placeholder="Enter email address" required>
-            <input type="text" name="subject" placeholder="Enter your subject" required>
-            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+      <form method="post">
+        <input type="text" name="name" placeholder="Enter your name" required />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter email address"
+          required
+        />
+        <input
+          type="text"
+          name="subject"
+          placeholder="Enter your subject"
+          required
+        />
+        <textarea
+          rows="8"
+          name="message"
+          placeholder="Message"
+          required
+        ></textarea>
 
-            <br>
+        <br />
 
-            <button type="submit" id="submit-button"><strong>Send Message</strong></button>
-        </form>
+        <button type="submit" id="submit-button">
+          <strong>Send Message</strong>
+        </button>
+      </form>
     </div>
 
     <script src="./code.js"></script>
-</body>
-
+    <menu class="settings">
+      <div class="sidebar"></div>
+      <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU" />
+    </menu>
+  </body>
 </html>
