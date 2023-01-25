@@ -2,13 +2,8 @@
 
 
 .menu{
-<<<<<<< Updated upstream
     width: 75px;
     position: fixed;
-=======
-    width: 65px;
-    position: absolute;
->>>>>>> Stashed changes
     right: 0px;
     top: 0px;
     margin: 30px;
