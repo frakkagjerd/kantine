@@ -3,7 +3,7 @@
 
 .menu{
     width: 75px;
-    position: absolute;
+    position: fixed;
     right: 0px;
     top: 0px;
     margin: 30px;
@@ -29,6 +29,8 @@ h1 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 75px;
+    margin-right: 100px;
+    margin-left: 20%;
 }
 
 p {
