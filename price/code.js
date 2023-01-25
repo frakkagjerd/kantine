@@ -8,13 +8,12 @@ class Product {
     name
     info
     price
-    constructor(name, info, price, path) {
+    constructor(name, info, price, path, style) {
         this.name = name;
         this.info = info;
         this.price = price;
 
-        product_list.innerHTML += '<img src="' + path + '" alt=' + name + '><p>' + name + ' - ' + price + ' kr</p>'
-
+        product_list.innerHTML += '<br><img style="' + style + '" src="' + path + '" alt=' + name + '><p>' + name + ' - ' + price + ' kr</p>'
 
     }
 
@@ -32,9 +31,10 @@ class Product {
 */
 
 
-const products = [
-new Product("Rislunsj Jordbær", "128 kcal, Allergier: Inneholder melk", "25", "https://bilder.ngdata.no/7038010035463/meny/large.jpg")]
-
+const products = []
+products.push(new Product("Rislunsj Jordbær", "128 kcal, Allergier: Inneholder melk", "25", "https://bilder.ngdata.no/7038010035463/meny/large.jpg", "height:200px"))
+products.push(new Product("Rislunsj Pasjon", "128 kcal, Allergier: Inneholder melk", "25", "https://bilder.ngdata.no/7038010069000/meny/large.jpg", "height:200px"))
+products.push(new Product("Rislunsj Pasjon", "128 kcal, Allergier: Inneholder melk", "25", "https://bilder.ngdata.no/7038010069000/meny/large.jpg", "height:200px"))
 
 
 
