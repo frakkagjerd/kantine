@@ -2,8 +2,13 @@
 
 
 .menu{
+<<<<<<< Updated upstream
     width: 75px;
     position: fixed;
+=======
+    width: 65px;
+    position: absolute;
+>>>>>>> Stashed changes
     right: 0px;
     top: 0px;
     margin: 30px;
@@ -49,7 +54,7 @@ p {
 
 .main .select{
     margin-bottom: 20px;
-    margin: 25px;
+    margin: 20px;
     font-size: 35px;
     width: 250px;
     height: 70px;
@@ -100,6 +105,45 @@ p {
     background-color: gold;
     border-radius: 28px;
 }
+
+/* ---- Settings */
+
+.settings {
+    font-size: 36px;
+    background-color: #ffab19;
+    color: #ffffff;
+}
+
+.settings:hover {
+    color: black;
+    background-color: white;
+    border-radius: 28px;
+}
+
+.settings-main {
+    display: grid;
+    justify-content: center;
+}
+
+.setting-buttons {
+    font-size: 40px;
+    width: 260px;
+    height: 65px;
+    border-radius: 18px;
+    background-color: green;
+    color: gold;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.setting-buttons:focus {
+    background-color: purple;
+    color: aqua;
+}
+
+/* ---- Other ---- */
 
 a {
     text-decoration: none;
