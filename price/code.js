@@ -1,7 +1,3 @@
-
-
-// @nikeedev @xNoobplays123
-
 let product_list = document.querySelector(".image-left")
 
 class Product {
