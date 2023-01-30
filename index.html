@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="src/style.css" />
-    <link rel="shortcut icon" href="./src/icon-dark.png" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>FUS kantine</title>
-  </head>
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="shortcut icon" href="./src/icon-dark.png" type="image/x-icon" />
 
-  <body>
-    <script src="./src/menu.svg"></script>
-    <h1>Velkommen til kantinen på Frakkagjerd ungdomsskole!</h1>
+  <title>FUS kantine</title>
+</head>
 
-    <div class="main">
-      <button class="select" onclick="window.location.href='./price'">
-        Priser
-      </button>
-      <br />
-      <button class="select" onclick="window.location.href='./information'">
-        Informasjon
-      </button>
-      <br />
-      <button class="select" onclick="window.location.href='./contact'">
-        Kontakt oss
-      </button>
-      <br />
-      <button
-        class="select settings"
-        onclick="window.location.href='./settings'">
-        <strong>Settings</strong>
-      </button>
-    </div>
-    <menu class="settings">
-      <div class="sidebar"></div>
-      <img class="menu" onclick="menu()" src="./src/menu.js" alt="MENU" />
-    </menu>
-  </body>
+<body>
+  <menu class="settings">
+    <div class="sidebar"></div>
+    <img class="menu" onclick="menu()" src="./src/menu.svg" alt="MENU" />
+  </menu>
+  <h1>Velkommen til kantinen på Frakkagjerd ungdomsskole!</h1>
+
+  <div class="main">
+    <button class="select" onclick="window.location.href='./price'">
+      Priser
+    </button>
+    <br />
+    <button class="select" onclick="window.location.href='./information'">
+      Informasjon
+    </button>
+    <br />
+    <button class="select" onclick="window.location.href='./contact'">
+      Kontakt oss
+    </button>
+    <br />
+    <button class="select settings" onclick="window.location.href='./settings'">
+      <strong>Settings</strong>
+    </button>
+  </div>
+
+  <script src="./src/menu.js"></script>
+</body>
+
 </html>
