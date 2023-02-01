@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,36 +9,28 @@
     <link rel="stylesheet" href="./../src/style.css" />
     <link rel="shortcut icon" href="../src/icon-dark.png" type="image/x-icon" />
 
-    <title>Informajson</title>
+    <title>Informasjon</title>
   </head>
 
-  <body id="under-construction">
-    <script src="./../src/menu.js"></script>
-    <!--
-    <h1>Informajson</h1>
-
-    <button class="select" onclick="window.location.href='../price'">Priser</button>
-
-    <button class="resize" onclick="localStorage.setItem('size', '10px')">Normal Size</button>
-
-    <img src="../src/square-regular.svg" id="icon" onclick="infoclicked()">
-    <button class="select" id="white" onclick="window.location.href='../information'">Informasjon</button>
-
-    <button class="resize" onclick="localStorage.setItem('size', '100px')">Chunky Size</button>
-
-    <button class="select" onclick="window.location.href='../contact'">Kontakt oss</button>
-    -->
-
-    <h1>This side is currently under development</h1>
-
-    <button class="select" id="error-button" onclick="window.location.href='../index.html'">
-        Trykk for å gå tilbake
-    </button>
+  <body class="background">
     <menu class="settings">
-        <div class="sidebar"></div>
-        <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU" />
+      <div class="sidebar"></div>
+      <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU" />
     </menu>
-</body>
-<script src="./code.js"></script>
+    <script src="./../src/menu.js"></script>
+    
+    <h1>Informasjon</h1>
 
+    <div class="products">
+    </div>
+
+    <button
+      class="select"
+      id="error-button"
+      onclick="window.location.href='../index.html'"
+    >
+      Trykk for å gå tilbake
+    </button>
+  </body>
+  <script src="./code.js"></script>
 </html>

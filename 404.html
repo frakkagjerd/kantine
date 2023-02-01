@@ -12,7 +12,13 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
 
-  <body id="error">
+  <body id="error" class="background">
+    <menu class="settings">
+      <div class="sidebar">
+        <iframe src="./src/sidebar.html" frameborder="0"></iframe>
+      </div>
+      <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU" />
+    </menu>
     <script src="./../src/menu.js"></script>
     <h1>
       Siden du letter etter eksister ikke, eller er flyttet til en annen link
@@ -29,9 +35,5 @@
     >
       Trykk her
     </button>
-    <menu class="settings">
-      <div class="sidebar"></div>
-      <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU" />
-    </menu>
   </body>
 </html>
