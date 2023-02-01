@@ -9,18 +9,18 @@
     margin: 30px;
 }
 
-body {
+.background {
     background-image: url(../src/blue.svg);
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body#error {
+.background#error {
     background-image: none;
     background-color: #E3242B;
 }
 
-body#under-construction {
+.background#under-construction {
     background-color: orange;
 }
 
