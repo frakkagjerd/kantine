@@ -187,16 +187,16 @@ button#white {
     text-align: center;    
 }
 
-/* ---- Contact ---- */
+/* ---- order ---- */
 
-.contact {
+.order {
     text-align: center;
     justify-content: center;
     display: flex;
     margin-bottom: 30px;
 }
 
-.contact input {
+.order input {
     width: 60%;
     padding: 15px;
     margin-bottom: 17px;
@@ -206,7 +206,7 @@ button#white {
     box-sizing: border-box;
 }
 
-.contact textarea {
+.order textarea {
     width: 500px;
 }
 
