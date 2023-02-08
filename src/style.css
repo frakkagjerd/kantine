@@ -14,7 +14,7 @@
 }
 
 .background {
-    background-image: url(../src/blue.svg);
+    background-image: url(../src/background.svg);
     background-repeat: no-repeat;
     background-size:cover;
     color: black;
