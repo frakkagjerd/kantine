@@ -21,6 +21,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.background#vilkår {
+    background-image: none;
+    background-color: yellow;
+}
+
 .background#error {
     background-image: none;
     background-color: #E3242B;
@@ -41,6 +46,11 @@ p {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+ul {
+    font-size: 25px;
+    text-align: center;
 }
 
 /* ---- sidebar --- */
