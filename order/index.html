@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./../src/style.css" />
-    <link rel="shortcut icon" href="../src/icon-dark.png" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Bestill</title>
-  </head>
+  <link rel="stylesheet" href="./../src/style.css" />
+  <link rel="shortcut icon" href="../src/icon-dark.png" type="image/x-icon" />
 
-  <body class="background">
-    <menu class="settings">
-      <div class="sidebar">
-        <iframe class="make100" src="./../src/sidebar.html" frameborder="0"></iframe>
-      </div>
-      <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU" />
-    </menu>
-    <script src="./../src/menu.js"></script>
-    <h1 class="header">Bestill</h1>
+  <title>Bestill</title>
+</head>
 
+<body class="background">
+  <menu class="settings">
+    <div class="sidebar">
+      <iframe class="make100" src="./../src/sidebar.html" frameborder="0"></iframe>
+    </div>
+    <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU" />
+  </menu>
+  <script src="./../src/menu.js"></script>
+  <h1 class="header">Bestill</h1>
+
+  <!--
     <button class="select" onclick="window.location.href='../price'">
       Priser
     </button>
@@ -37,37 +39,38 @@
     >
       Bestill
     </button>
+  -->
 
-    <div class="order">
-      <form method="post">
-        <input type="text" name="name" placeholder="Enter your name" required />
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter email address"
-          required
-        />
-        <input
-          type="text"
-          name="subject"
-          placeholder="Enter your subject"
-          required
-        />
-        <textarea
-          rows="8"
-          name="message"
-          placeholder="Message"
-          required
-        ></textarea>
+  <div class="order">
+    <form method="post">
+      <input type="text" name="name" placeholder="Navn" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <select id="produkt" name="cars">
+        <option value="Kebab">Kebab (40 kr)</option>
+        <option value="Smørbrød">Smørbrød (25 kr)</option>
+        <option value="Eple">Eple (5 kr)</option>
+        <option value="Banan">Banan (4 kr)</option>
+      </select>
+      <textarea rows="8" name="message" placeholder="Extra informasjon (allergier eller tilpasninger)" required></textarea>
+      
+      <br />
+      
+      <input type="checkbox" id="vilkår" name="vilkår" checked required>
+      <label id="vilkår-text" for="vilkår"><strong><a href="https://frakkagjerd.github.io/kantine/bestillingsvilkår/" target="_blank">Jeg har lest og forstått bestillingsvilkårene</a></strong></label>
 
-        <br />
+      <br />
 
-        <button type="submit" id="submit-button">
-          <strong>Send Message</strong>
-        </button>
-      </form>
-    </div>
+      <button type="submit" id="submit-button">
+        <strong>Send in bestilling</strong>
+      </button>
+    </form>
+  </div>
 
-    <script src="./code.js"></script>
-  </body>
+  <button class="select" id="error-button" onclick="window.location.href='../index.html'">
+    Trykk for å gå tilbake
+  </button>
+
+  <script src="./code.js"></script>
+</body>
+
 </html>
