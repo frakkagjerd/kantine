@@ -10,22 +10,18 @@
 <body>
     <h1 class="header">Menu</h1>
     
-    <button class="select" id="white" onclick="window.location.href='../price'">
+    <button class="select" id="white" onclick="window.parent.location.href='../price'">
         Priser
     </button>
 
     <img src="../src/square-regular.svg" id="info-icon" onclick="infoClicked()" />
-    <button class="select" onclick="window.location.href='../information'">
+    <button class="select" onclick="window.parent.location.href='../information'">
         Informasjon
     </button>
 
-    <button class="select" onclick="window.location.href='../contact'">
+    <button class="select" onclick="window.parent.location.href='../contact'">
         Kontakt oss
     </button>
-
-    <script>
-        localStorage.setItem("hello", 'what');
-    </script>
 
 </body>
 </html>
