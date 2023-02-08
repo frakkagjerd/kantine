@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <h1 class="header">Menu</h1>
-    
-    <button class="select" id="white" onclick="window.parent.location.href='../price'">
+
+    <div class="main">
+      <button class="select" onclick="window.parent.location.href='/'">
+        Start Side
+      </button>
+      <br />
+
+      <button class="select" onclick="window.parent.location.href='../price'">
         Priser
-    </button>
+      </button>
+      <br />
 
-    <img src="../src/square-regular.svg" id="info-icon" onclick="infoClicked()" />
-    <button class="select" onclick="window.parent.location.href='../information'">
+      <button
+        class="select"
+        onclick="window.parent.location.href='../information'"
+      >
         Informasjon
-    </button>
+      </button>
+      <br />
 
-    <button class="select" onclick="window.parent.location.href='../contact'">
+      <button class="select" onclick="window.parent.location.href='../contact'">
         Kontakt oss
-    </button>
+      </button>
+      <br />
 
-</body>
+      <!--
+        <button
+          class="select settings"
+          onclick="window.location.href='./settings'"
+        >
+          <strong>Settings</strong>
+        </button>
+      -->
+    </div>
+  </body>
 </html>
