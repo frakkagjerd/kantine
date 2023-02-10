@@ -53,7 +53,7 @@ ul {
     margin-left: 24%;
 }
 
-/* ---- sidebar --- */
+/* ---- Sidebar --- */
 
 .sidebar {
     position:fixed;
@@ -64,6 +64,10 @@ ul {
     background-color: #ffb020f6;
     transition: 0.7s;
 }
+
+/* ---- Menu ---- */
+
+/* Nothing yet */
 
 /* ---- Button ---- */
 

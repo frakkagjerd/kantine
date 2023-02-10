@@ -14,12 +14,12 @@
 </head>
 
 <body class="background">
-  <menu class="settings">
+  <div class="settings">
     <div class="sidebar">
-      <iframe class="make100" src="./../src/sidebar.html" frameborder="0"></iframe>
+      <iframe class="make100" src="./../src/sidebar.html"></iframe>
     </div>
     <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU">
-  </menu>
+  </div>
   <script src="./../src/menu.js"></script>
   <h1 class="header">Bestill</h1>
 
@@ -51,12 +51,14 @@
         <option value="Eple">Eple (5 kr)</option>
         <option value="Banan">Banan (4 kr)</option>
       </select>
-      <textarea rows="8" name="message" placeholder="Extra informasjon (allergier eller tilpasninger)" required></textarea>
-      
+      <textarea rows="8" name="message" placeholder="Extra informasjon (allergier eller tilpasninger)"
+        required></textarea>
+
       <br>
-      
+
       <input type="checkbox" id="vilkår" name="vilkår" required>
-      <label id="vilkår-text" for="vilkår"><strong><a href="../bestillingsvilkår/" target="_blank">Jeg har lest og forstått bestillingsvilkårene</a></strong></label>
+      <label id="vilkår-text" for="vilkår"><strong><a href="../bestillingsvilkår/" target="_blank">Jeg har lest og
+            forstått bestillingsvilkårene</a></strong></label>
 
       <br>
 

@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <link rel="stylesheet" href="./../src/style.css"/>
-    <link rel="shortcut icon" href="../src/icon-dark.png" type="image/x-icon"/>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bestill</title>
-  </head>
+  <link rel="stylesheet" href="./../src/style.css">
+  <link rel="shortcut icon" href="../src/icon-dark.png" type="image/x-icon">
 
-  <body class="background">
-    <menu class="settings">
-      <div class="sidebar">
-        <iframe class="make100" src="./../src/sidebar.html" frameborder="0"></iframe>
-      </div>
-      <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU"/>
-    </menu>
-    <script src="./../src/menu.js"></script>
-    <h1 class="header">Bestill</h1>
+  <title>Bestill</title>
+</head>
 
-    <!--
+<body class="background">
+  <div class="settings">
+    <div class="sidebar">
+      <iframe class="make100" src="./../src/sidebar.html"></iframe>
+    </div>
+    <img class="menu" onclick="menu()" src="./../src/menu.svg" alt="MENU">
+  </div>
+  <script src="./../src/menu.js"></script>
+  <h1 class="header">Bestill</h1>
+
+  <!--
     <button class="select" onclick="window.location.href='../price'">
       Priser
     </button>
@@ -40,44 +41,26 @@
     </button>
   -->
 
-    <div class="order">
-      <form method="post">
-        <input type="text" name="name" placeholder="Enter your name" required />
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter email address"
-          required
-        />
-        <input
-          type="text"
-          name="subject"
-          placeholder="Enter your subject"
-          required
-        />
-        <textarea
-          rows="8"
-          name="message"
-          placeholder="Message"
-          required
-        ></textarea>
+  <div class="order">
+    <form method="post">
+      <input type="text" name="name" placeholder="Enter your name" required />
+      <input type="email" name="email" placeholder="Enter email address" required />
+      <input type="text" name="subject" placeholder="Enter your subject" required />
+      <textarea rows="8" name="message" placeholder="Message" required></textarea>
 
-        <br>
+      <br>
 
-        <button type="submit" id="submit-button">
-          <strong>Send Message</strong>
-        </button>
-      </form>
-    </div>
+      <button type="submit" id="submit-button">
+        <strong>Send Message</strong>
+      </button>
+    </form>
+  </div>
 
-    <button
-      class="select"
-      id="error-button"
-      onclick="window.location.href='../index.html'"
-    >
-      Tilbake
-    </button>
+  <button class="select" id="error-button" onclick="window.location.href='../index.html'">
+    Tilbake
+  </button>
 
-    <script src="./code.js"></script>
-  </body>
+  <script src="./code.js"></script>
+</body>
+
 </html>
