@@ -67,7 +67,9 @@ ul {
 
 /* ---- Menu ---- */
 
-/* Nothing yet */
+iframe {
+    border: none;
+}
 
 /* ---- Button ---- */
 
