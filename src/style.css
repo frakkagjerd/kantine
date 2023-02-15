@@ -1,5 +1,9 @@
 /* ---- General Things */
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 .make100 {
     height: 100%;
     width: 100%;
@@ -16,7 +20,7 @@
 .background {
     background-image: url(../src/background.svg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,15 +1,15 @@
 var sidebar = false
 function menu(){
-    // let rem = document.createElement("div") 
-    let rem = document.querySelector(".sidebar")
+    // let sidebar_element = document.createElement("div")
+    let sidebar_element = document.querySelector(".sidebar")
     if (sidebar) {
-        rem.style.left = "100%"
-        rem.style.borderRadius = "100%"
+        sidebar_element.style.left = "100%"
+        sidebar_element.style.borderRadius = "100%"
         sidebar = false
     }
     else{
-        rem.style.left = "0%"
-        rem.style.borderRadius = "0%"
+        sidebar_element.style.left = "0%"
+        sidebar_element.style.borderRadius = "0%"
         sidebar = true
     }
 }
