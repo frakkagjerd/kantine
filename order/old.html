@@ -43,27 +43,15 @@
 
   <div class="order">
     <form method="post">
-      <input type="text" name="name" placeholder="Navn" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <select id="produkt" name="cars">
-        <option value="Kebab">Kebab (40 kr)</option>
-        <option value="Smørbrød">Smørbrød (25 kr)</option>
-        <option value="Eple">Eple (5 kr)</option>
-        <option value="Banan">Banan (4 kr)</option>
-      </select>
-      <textarea rows="8" name="message" placeholder="Extra informasjon (allergier eller tilpasninger)"
-        required></textarea>
-
-      <br>
-
-      <input type="checkbox" id="vilkår" name="vilkår" required>
-      <label id="vilkår-text" for="vilkår"><strong><a href="../bestillingsvilkår/" target="_blank">Jeg har lest og
-            forstått bestillingsvilkårene</a></strong></label>
+      <input type="text" name="name" placeholder="Enter your name" required />
+      <input type="email" name="email" placeholder="Enter email address" required />
+      <input type="text" name="subject" placeholder="Enter your subject" required />
+      <textarea rows="8" name="message" placeholder="Message" required></textarea>
 
       <br>
 
       <button type="submit" id="submit-button">
-        <strong>Send in bestilling</strong>
+        <strong>Send Message</strong>
       </button>
     </form>
   </div>

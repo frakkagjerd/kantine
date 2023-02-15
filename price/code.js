@@ -31,21 +31,43 @@ class Product {
 
 const products = []
 
-products.push(new Product("TINE® isTe Fersken", "33 kcal, Allergier: Ingen", "25", "iste-fersken", "height:200px; text-align:center"))
+products.push(new Product("Appelsin Juice", "44 kcal, Allergier: Ingen", "20", "appelsin-juice", "height:200px; text-align:center"))
 
-products.push(new Product("Rislunsj Jordbær", "140 kcal, Allergier: Inneholder melk", "13", "ris-lunsj-jordbaer", "height:200px"))
+products.push(new Product("Eple Juice", "45 kcal, Allergier: Ingen", "20", "eple-juice", "height:200px; text-align:center"))
 
-products.push(new Product("IsKaffe - Mocha", "40 kcal, Allergier: Inneholder melk", "25", "iskaffe-mocha", "height:200px"))
+products.push(new Product("Billys Pizza", "44 kcal, Allergier: gluten, melk", "23", "billys", "height:200px; text-align:center"))
 
-products.push(new Product("Litago Jordbær", "55 kcal, Allergier: Inneholder melk", "20", "litago-jordbaer", "height:200px"))
+products.push(new Product("Go'Morgen® Skogsbær", "119 kcal, Allergier: hvete, melk", "13", "gomorgen-skogsbær", "height:200px; text-align:center"))
 
-products.push(new Product("Litago Sjokolade", "59 kcal, Allergier: Inneholder melk", "20", "litago-sjokolade", "height:200px"))
+products.push(new Product("Go'Morgen® Vanilje", "123 kcal, Allergier: hvete, melk", "13", "gomorgen-vanilje", "height:200px; text-align:center"))
 
-products.push(new Product("Nudler med kjøttsmak", "95 kcal, Allergier: Inneholder hvete", "25", "nudler-kjoett", "height:200px"))
+products.push(new Product("IsKaffe - Cappuccino", "56 kcal, Allergier: melk", "18", "iskaffe-cappuccino", "height:200px"))
 
-products.push(new Product("Tine Kakaomelk", "45 kcal, Allergier: Inneholder melk", "25", "tine-kakao", "height:200px"))
+products.push(new Product("IsKaffe - Mocha", "40 kcal, Allergier: melk", "18", "iskaffe-mocha", "height:200px"))
 
+products.push(new Product("IsKaffe - Nocciola", "42 kcal, Allergier: melk", "18", "iskaffe-nocciola", "height:200px"))
 
+products.push(new Product("TINE® IsTe Fersken", "29 kcal, Allergier: Ingen", "20", "iste-fersken", "height:200px"))
+
+products.push(new Product("Lettmelk Kakao", "45 kcal, Allergier: melk", "10", "lettmelk-kakao", "height:200px"))
+
+products.push(new Product("Litago Jordbær", "55 kcal, Allergier: melk", "20", "litago-jordbær", "height:200px"))
+
+products.push(new Product("Litago Sjokolade", "46 kcal, Allergier: melk", "20", "litago-sjokolade", "height:200px"))
+
+products.push(new Product("Nudler med kjøttsmak", "95 kcal, Allergier: gluten, selleri og soya", "25", "nudler-kjøtt", "height:200px"))
+
+products.push(new Product("Nudler med kyllingsmak", "91 kcal, Allergier: gluten, selleri og soya", "25", "nudler-kylling", "height:200px"))
+
+products.push(new Product("Risgrøt", "105 kcal, Allergier: melk", "30", "risgrøt", "height:200px"))
+
+products.push(new Product("Rislunsj Bringebær", "140 kcal, Allergier: melk", "13", "rislunsj-bringebær", "height:200px"))
+
+products.push(new Product("Rislunsj Jordbær", "140 kcal, Allergier: melk", "13", "rislunsj-jordbær", "height:200px"))
+
+products.push(new Product("Bestikk", "Laget av plastikk", "1", "bestikk", "height:200px"))
+
+/* ---- Click Event ---- */
 
 let active = false;
 let information;
