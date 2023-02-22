@@ -64,6 +64,7 @@ ul {
     font-size: 25px;
     margin-left: 24%;
 }
+
 /* ---- user ---- */
 
 .users{
@@ -75,39 +76,47 @@ ul {
     border: black solid 5px;
     border-radius: 25%;
     background-color: #a0a0a0;
-    height: 100px;
+    height: 150px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .users .info {
     background-color: #a0a0a0;
+    border: black solid 5px;
+    border-radius: 25px;
     position: sticky;
-    height: 110px;
+    height: 150px;
     width: 50%;
     min-width: 250px;
     justify-content: left;
-
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .users .info img {
-
+    height: 50px;
+    width: 50px;
 }
 
 .users .user_name {
     background-color: #ffab19;
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 10px;
     display:flex;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     /* width: 30%;
     height: 50%; */
     
 }
 
-.users a {
-    border: black solid 3px;
+.users .links {
+    border: 3px solid black;
     border-radius: 10px;
-    display: flex;
-    height: 50px;
-    width: fit-content;
+    display:-webkit-inline-flex;
+    width: 30%;
+    height: 70%;
 }
 
 
