@@ -58,15 +58,29 @@ ul {
 }
 /* ---- user ---- */
 
-.user{
+.users{
     border: black solid 1px;
     border-radius: 10px;
 }
 
-.user img {
-    border: black solid 3px;
+.users img {
+    border: 3px solid black;
     border-radius: 25%;
     background-color: #a0a0a0;
+}
+
+.users info {
+    height: 100px;
+    background-color: #a0a0a0;
+}
+
+.users user_name {
+    background-color: #E3242B;
+}
+
+.users a {
+    border: black solid 3px;
+    border-radius: 10px;
 }
 
 
