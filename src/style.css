@@ -59,28 +59,47 @@ ul {
 /* ---- user ---- */
 
 .users{
-    border: black solid 1px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.users img {
-    border: 3px solid black;
+.users .pfp {
+    border: black solid 5px;
     border-radius: 25%;
     background-color: #a0a0a0;
-}
-
-.users info {
     height: 100px;
-    background-color: #a0a0a0;
 }
 
-.users user_name {
-    background-color: #E3242B;
+.users .info {
+    background-color: #a0a0a0;
+    position: sticky;
+    height: 110px;
+    width: 50%;
+    min-width: 250px;
+    justify-content: left;
+
+}
+
+.users .info img {
+
+}
+
+.users .user_name {
+    background-color: #ffab19;
+    border-radius: 10px;
+    padding: 10px;
+    display:flex;
+    /* width: 30%;
+    height: 50%; */
+    
 }
 
 .users a {
     border: black solid 3px;
     border-radius: 10px;
+    display: flex;
+    height: 50px;
+    width: fit-content;
 }
 
 
