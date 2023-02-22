@@ -17,6 +17,14 @@
     margin: 30px;
 }
 
+.info{
+    width: 75px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin: 30px;
+}
+
 .background {
     background-image: url(../src/background.svg);
     background-repeat: no-repeat;
