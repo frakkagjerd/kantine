@@ -243,7 +243,7 @@ button#white {
 }
 
 .order input {
-    width: 55%;
+    width: 58%;
     padding: 15px;
     margin-bottom: 17px;
     outline: none;
@@ -252,8 +252,12 @@ button#white {
     box-sizing: border-box;
 }
 
+.order #date {
+    border: 2px solid blue;
+}
+
 #produkt {
-    width: 55%;
+    width: 58%;
     padding: 15px;
     margin-bottom: 17px;
     outline: none;
@@ -262,7 +266,7 @@ button#white {
     box-sizing: border-box;
 }
 
-.order textarea {
+.order #extra-info {
     width: 550px;
     resize: none;
 }
