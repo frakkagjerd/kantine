@@ -12,21 +12,30 @@ class Product {
         let file_name = path + ".png"
 
         product_list.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center;" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
-
-    }
-
-    showInfo() {
-        // Do something to show information about the product...
-        console.log(this.info);
     }
 }
 
-/*
+/* ---- Click Events ----*/
 
-<img src="../src/box.png" alt="">
-<p>This is a black box - 45 kr</p>
+var infoActive = false;
+var infoIcon = document.querySelector('.info')
 
-*/
+function info() {
+    if (infoActive == false){
+        infoActive = true;
+        infoIcon.src="./../src/info-icon-white.svg";
+        showInfo()
+    } else if (infoActive == true) {
+        infoActive = false;
+        infoIcon.src="./../src/info-icon-black.svg";
+    }
+}
+
+function showInfo() {
+        console.log("Extra info");
+    }
+
+/* ---- Products ----*/
 
 let width_wanted = 140;
 
@@ -68,27 +77,3 @@ products.push(new Product("Rislunsj Bringebær", "140 kcal, Allergier: melk", "1
 products.push(new Product("Rislunsj Jordbær", "140 kcal, Allergier: melk", "13", "rislunsj-jordbær", `${style_wanted}`))
 
 products.push(new Product("Bestikk", "Laget av plastikk", "1", "bestikk", `${style_wanted}`))
-
-/* ---- Click Event ---- */
-
-let active = false;
-let information;
-
-let icon = document.getElementById("info-icon");
-
-
-function infoClicked() {
-
-    if (active == true) {
-        icon.src = "../src/square-check.svg";
-        active = false
-        information = false
-
-    } else if (active == false) {
-        icon.src = "../src/square-regular.svg";
-        active = true
-        information = true
-    }
-}
-
-

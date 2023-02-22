@@ -13,16 +13,3 @@ function menu(){
         sidebar = true
     }
 }
-
-var infoActive = false;
-var infoIcon = document.querySelector('.info')
-
-function info() {
-    if (infoActive == false){
-        infoActive = true;
-        infoIcon.src="./../src/info-icon-white.svg";
-    } else if (infoActive == true) {
-        infoActive = false;
-        infoIcon.src="./../src/info-icon-black.svg";
-    }
-}
