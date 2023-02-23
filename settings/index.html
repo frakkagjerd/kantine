@@ -13,22 +13,22 @@
     <title>Settings</title>
 </head>
 
-<!--
-
+<script src="code.js"></script>
 <body class="background">
     <h1>Settings</h1>
 
+    <h5>Bilde Tykkelse</h5>
     <div class="settings-main">
-        <button class="setting-buttons" onclick="localStorage.setItem('size', '10px')">Normal Size</button>
-        <br>
-        <br>
-        <button class="setting-buttons" onclick="localStorage.setItem('size', '100px')">Chunky Size</button>
+        <select class="select_size" id="product_size">
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+        </select>
 
         <button class="select" id="error-button" onclick="window.location.href='../index.html'">
             Tilbake
         </button>
     </div>
--->
 </body>
 
 </html>
