@@ -11,7 +11,24 @@ class Product {
         this.path = path;
         let file_name = path + ".png"
 
-        product_list.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center;" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
+        product_list.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
+    }
+}
+
+let WeeklyProduct = document.querySelector(".weekly")
+
+class SpecialProduct {
+    name
+    info
+    price
+    constructor(name, info, price, path, style) {
+        this.name = name;
+        this.info = info;
+        this.price = price;
+        this.path = path;
+        let file_name = path + ".png"
+
+        WeeklyProduct.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
     }
 }
 
@@ -32,14 +49,24 @@ function info() {
 }
 
 function showInfo() {
-        console.log("Extra info");
-    }
+    console.log("Extra info");
+}
+
+/* ---- Weekly Product ----*/
+
+let width = 140;
+
+let style = `width: ${width}px; font-family: 'Roboto';`;
+const weekly = []
+
+weekly.push(new SpecialProduct("Appelsin Juice", "44 kcal, Allergier: Ingen", "20", "appelsin-juice", `${style}`))
+
 
 /* ---- Products ----*/
 
 let width_wanted = 140;
 
-let style_wanted = `width: ${width_wanted}px; font-family: 'Roboto';`;
+let style_wanted = `width: ${width_wanted}px;`;
 const products = []
 
 products.push(new Product("Appelsin Juice", "44 kcal, Allergier: Ingen", "20", "appelsin-juice", `${style_wanted}`))
