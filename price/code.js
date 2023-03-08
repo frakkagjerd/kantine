@@ -54,7 +54,8 @@ function info() {
 }
 
 function showInfo() {
-    let products = document.querySelectorAll('.product');
+    let products_temp = document.querySelector('.products');
+    console.log(products_temp.children)
 }
 
 /* ---- Weekly Product ----*/
