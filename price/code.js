@@ -45,14 +45,16 @@ function info() {
         infoActive = true;
         infoIcon.src="./../src/info-icon-white.svg";
         showInfo()
+        console.log("on!")
     } else if (infoActive == true) {
         infoActive = false;
         infoIcon.src="./../src/info-icon-black.svg";
+        console.log("off!")
     }
 }
 
 function showInfo() {
-    console.log("Extra info");
+    let products = document.querySelectorAll('.product');
 }
 
 /* ---- Weekly Product ----*/
@@ -64,8 +66,10 @@ const weekly = []
 
 weekly.push(new SpecialProduct("Brownies", "2077 kcal, Allergier: Gluten", "20", "brownies", `${style}`))
 
+weekly.push(new SpecialProduct("Brownies2", "657890 kcal, Allergier: Gluten", "20", "brownies", `${style}`))
 
-/* ---- Products ----*/
+
+/* ---- Products ---- */
 
 let width_wanted = 140;
 

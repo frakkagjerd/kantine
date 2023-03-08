@@ -1,5 +1,7 @@
 /* ---- General Things */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *::-webkit-scrollbar {
     display: none;
 }
@@ -100,6 +102,8 @@ ul {
 }
 
 .users .user_name {
+    font-family: consolas;
+    font-weight: bolder;
     background-color: #ffab19;
     border-radius: 25px;
     padding: 10px;
