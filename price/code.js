@@ -12,7 +12,7 @@ class Product {
         this.info = info;
         this.price = price;
         this.path = path;
-        let file_name = path + ".png"
+        let file_name = path + ".webp"
 
         product_list.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
     }
@@ -29,7 +29,7 @@ class SpecialProduct {
         this.info = info;
         this.price = price;
         this.path = path;
-        let file_name = path + ".png"
+        let file_name = path + ".webp"
 
         WeeklyProduct.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
     }
