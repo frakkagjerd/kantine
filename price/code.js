@@ -28,7 +28,7 @@ class SpecialProduct {
         this.path = path;
         let file_name = path + ".png"
 
-        WeeklyProduct.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
+        WeeklyProduct.innerHTML += `<br><div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
     }
 }
 
@@ -54,12 +54,12 @@ function showInfo() {
 
 /* ---- Weekly Product ----*/
 
-let width = 140;
+let width = 225;
 
-let style = `width: ${width}px; font-family: 'Roboto';`;
+let style = `width: ${width}px;`;
 const weekly = []
 
-weekly.push(new SpecialProduct("Appelsin Juice", "44 kcal, Allergier: Ingen", "20", "appelsin-juice", `${style}`))
+weekly.push(new SpecialProduct("Brownies", "2077 kcal, Allergier: Gluten", "20", "brownies", `${style}`))
 
 
 /* ---- Products ----*/
@@ -73,7 +73,7 @@ products.push(new Product("Appelsin Juice", "44 kcal, Allergier: Ingen", "20", "
 
 products.push(new Product("Eple Juice", "45 kcal, Allergier: Ingen", "20", "eple-juice", `${style_wanted}`))
 
-products.push(new Product("Billys Pizza", "44 kcal, Allergier: gluten, melk", "23", "billys", `${style_wanted}`))
+products.push(new Product("Billys Pizza", "44 kcal, Allergier: Gluten, melk", "23", "billys", `${style_wanted}`))
 
 products.push(new Product("Go'Morgen® Skogsbær", "119 kcal, Allergier: hvete, melk", "13", "gomorgen-skogsbær", `${style_wanted}`))
 
@@ -93,9 +93,9 @@ products.push(new Product("Litago Jordbær", "55 kcal, Allergier: melk", "20", "
 
 products.push(new Product("Litago Sjokolade", "46 kcal, Allergier: melk", "20", "litago-sjokolade", `${style_wanted}`))
 
-products.push(new Product("Nudler med kjøttsmak", "95 kcal, Allergier: gluten, selleri og soya", "25", "nudler-kjøtt", `${style_wanted}`))
+products.push(new Product("Nudler med kjøttsmak", "95 kcal, Allergier: Gluten, selleri og soya", "25", "nudler-kjøtt", `${style_wanted}`))
 
-products.push(new Product("Nudler med kyllingsmak", "91 kcal, Allergier: gluten, selleri og soya", "25", "nudler-kylling", `${style_wanted}`))
+products.push(new Product("Nudler med kyllingsmak", "91 kcal, Allergier: Gluten, selleri og soya", "25", "nudler-kylling", `${style_wanted}`))
 
 products.push(new Product("Risgrøt", "105 kcal, Allergier: melk", "30", "risgrøt", `${style_wanted}`))
 
