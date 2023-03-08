@@ -15,4 +15,3 @@ function menu(){
         sidebar = true
     }
 }
-
