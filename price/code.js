@@ -1,3 +1,6 @@
+console.log("Made with " + "%c\u2764", "color:#fc4444; font-family: ; font-size: 25px;", "by Nikita, Simon, Aleksander and Odin!");
+
+
 let product_list = document.querySelector(".products")
 
 class Product {
@@ -9,7 +12,7 @@ class Product {
         this.info = info;
         this.price = price;
         this.path = path;
-        let file_name = path + ".png"
+        let file_name = path + ".webp"
 
         product_list.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
     }
@@ -26,7 +29,7 @@ class SpecialProduct {
         this.info = info;
         this.price = price;
         this.path = path;
-        let file_name = path + ".png"
+        let file_name = path + ".webp"
 
         WeeklyProduct.innerHTML += `<br><div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='${name + " - " + info}'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`
     }

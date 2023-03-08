@@ -1,4 +1,3 @@
-
 var sidebar = false
 
 function menu(){
