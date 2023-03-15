@@ -84,7 +84,7 @@ ul {
     border-bottom-right-radius: 0px;
 }
 
-.users .info {
+.users .information {
     background-color: #a0a0a0;
     border: black solid 5px;
     border-radius: 25px;
@@ -97,9 +97,9 @@ ul {
     border-bottom-left-radius: 0px;
 }
 
-.users .info img {
-    height: 50px;
-    width: 50px;
+.users .information img {
+    height: 95px;
+    width: 95px;
 }
 
 .users .user_name {
@@ -117,13 +117,17 @@ ul {
 }
 
 .users .links {
-    border: 3px solid black;
-    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 6px;
+    color: blue;
+    text-decoration: none;
     display:-webkit-inline-flex;
     width: 30%;
     height: 70%;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 10px;
 }
-
 
 /* ---- Sidebar ---- */
 
