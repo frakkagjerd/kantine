@@ -42,12 +42,12 @@ var infoIcon = document.querySelector('.info')
 function info() {
     if (infoActive == false){
         infoActive = true;
-        infoIcon.src="./../src/images/info-icon-white.svg";
+        infoIcon.src="./../src/icons/info-icon-white.svg";
         showInfo()
         console.log("on!")
     } else if (infoActive == true) {
         infoActive = false;
-        infoIcon.src="./../src/images/info-icon-black.svg";
+        infoIcon.src="./../src/icons/info-icon-black.svg";
         console.log("off!")
     }
 }

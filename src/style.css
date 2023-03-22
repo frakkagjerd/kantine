@@ -28,7 +28,7 @@
 }
 
 .background {
-    background-image: url(../src/images/background.svg);
+    background-image: url(../src/icons/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
