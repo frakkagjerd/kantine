@@ -1,0 +1,93 @@
+/* ---- General Things */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.make100 {
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    width: 75px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    margin: 30px;
+}
+
+.info {
+    width: 75px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin: 30px;
+}
+
+/* ---- Sidebar ---- */
+
+.sidebar {
+    position:fixed;
+    top: 0px;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: #ffb020f6;
+    transition: 0.7s;
+}
+
+/* ---- Menu ---- */
+
+iframe {
+    border: none;
+}
+
+/* ---- Settings */
+
+.settings {
+    font-size: 36px;
+    background-color: #ffab19;
+    color: #ffffff;
+}
+
+.settings:hover {
+    color: black;
+    background-color: white;
+    border-radius: 28px;
+}
+
+.settings-main {
+    display: grid;
+    justify-content: center;
+}
+
+.setting-buttons {
+    font-size: 40px;
+    width: 260px;
+    height: 65px;
+    border-radius: 18px;
+    background-color: green;
+    color: gold;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.setting-buttons:focus {
+    background-color: purple;
+    color: aqua;
+}
+
+/* ---- Icon ---- */
+
+#info-icon {
+    width: 40px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
