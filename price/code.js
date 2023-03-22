@@ -1,6 +1,5 @@
 console.log("Made with " + "%c\u2764", "color:#fc4444; font-family: ; font-size: 25px;", "by Nikita, Simon, Aleksander and Odin!");
 
-
 let product_list = document.querySelector(".products")
 
 class Product {
@@ -54,7 +53,8 @@ function info() {
 }
 
 function showInfo() {
-    let products = document.querySelectorAll('.product');
+    let products_temp = document.querySelector('.products');
+    console.log(products_temp.children)
 }
 
 /* ---- Weekly Product ----*/

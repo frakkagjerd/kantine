@@ -46,6 +46,7 @@
 }
 
 .header {
+    font-family: Roboto;
     width: 70%;
     font-size: 48px;
     text-align: center;
@@ -96,8 +97,8 @@ ul {
 }
 
 .users .information img {
-    height: 50px;
-    width: 50px;
+    height: 95px;
+    width: 95px;
 }
 
 .users .user_name {
@@ -116,15 +117,17 @@ ul {
 }
 
 .users .links {
-    border: 3px solid black;
-    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 6px;
+    color: blue;
+    text-decoration: none;
     display:-webkit-inline-flex;
     width: 30%;
     height: 70%;
-    margin-right: 0.5%;
-    margin-left: 0.5%;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 10px;
 }
-
 
 /* ---- Sidebar ---- */
 
@@ -154,7 +157,7 @@ iframe {
 .main .select{
     margin-bottom: 20px;
     margin: 20px;
-    font-size: 35px;
+    font-size: 35px;    
     width: 250px;
     transition: 0.7s;
 }
@@ -203,6 +206,27 @@ iframe {
     color: green;
     background-color: gold;
     border-radius: 28px;
+}
+
+.select#developers{
+    display: block;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    border-radius: 25px;
+    background-color: blue;
+    color: lightskyblue;
+}
+
+.select#developers:hover {
+    color: cyan;
+    background-color: green;
+    border-radius: 46px;
 }
 
 /* ---- Settings */
