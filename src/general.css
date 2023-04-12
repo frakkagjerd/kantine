@@ -76,12 +76,13 @@ ul {
 }
 
 .users .information img {
-    height: 50%;
+    height: 70%;
     aspect-ratio: 1 / 1;
 }
 
 .users .information div {
-    height: 50%;
+    height: 30%;
+    width: 80%;
 }
 
 .users .user_name {
