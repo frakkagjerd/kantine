@@ -76,16 +76,21 @@ ul {
 }
 
 .users .information img {
-    height: 95px;
-    width: 95px;
+    height: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.users .information div {
+    height: 50%;
 }
 
 .users .user_name {
+    height: 20px; 
     font-family: consolas;
     font-weight: bolder;
     background-color: #ffab19;
     padding: 10px;
-    display:flex;
+    display: flex;
     border-radius: 25px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -97,12 +102,11 @@ ul {
 
 .users .links {
     font-size: 24px;
-    padding-left: 6px;
     color: blue;
     text-decoration: none;
-    display:-webkit-inline-flex;
+    display: inline-block;
     width: 30%;
-    height: 70%;
+    height: 110px;
     border-top: 5px solid black;
     border-right: 5px solid black;
     border-radius: 10px;
