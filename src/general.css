@@ -8,7 +8,7 @@ h1 {
 
 .background {
     background-image: url(../src/icons/background.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,13 +88,9 @@ ul {
     height: 20px; 
     font-family: consolas;
     font-weight: bolder;
-    background-color: #ffab19;
     padding: 10px;
     display: flex;
-    border-radius: 25px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0%;
+    border-top-right-radius: 20px;
     /* width: 30%;
     height: 50%; */
     
