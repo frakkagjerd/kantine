@@ -10,14 +10,22 @@ class Product {
   name;
   info;
   price;
+  elem = document.createElement("div");
+  
   constructor(name, info, price, path, style) {
     this.name = name;
     this.price = price;
     this.info = info;
     this.path = path;
     let file_name = path + ".webp";
+    let temp = document.createElement("template");
+    temp.innerHTML = `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name} - ${info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`.trim();
+    
+    for (let i = 0; i < temp.content.children.length; i++) {
+        // this.elem.appendChild(temp.content.children[i]);
+        product_list.innerHTML += temp.content.children[i].outerHTML;
+    }
 
-    product_list.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name} - ${info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`;
   }
 }
 
