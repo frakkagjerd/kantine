@@ -1,4 +1,4 @@
-var sidebar = false
+var sidebar = true
 
 function menu(){
     // let sidebar_element = document.createElement("div")
