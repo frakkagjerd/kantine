@@ -42,7 +42,7 @@ class SpecialProduct {
     this.path = path;
     let file_name = path + ".webp";
 
-    WeeklyProduct.innerHTML += `<br><div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='${
+    WeeklyProduct.innerHTML += `<br><div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img src="../src/images/UkensMeny.png" style="width: 400px; margin-right: -40%;  margin-top: -14%; position: absolute; transform: rotate(10deg);"><img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='${
       name + " - " + info
     }'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`;
   }
@@ -120,7 +120,7 @@ function showInfo() {
 
   products.push(
     new Product(
-      "Appelsin Juice",
+      "Appelsinjuice",
       "44 kcal, Allergier: Ingen",
       "20",
       "appelsin-juice",
@@ -130,7 +130,7 @@ function showInfo() {
 
   products.push(
     new Product(
-      "Eple Juice",
+      "Eplejuice",
       "45 kcal, Allergier: Ingen",
       "20",
       "eple-juice",
