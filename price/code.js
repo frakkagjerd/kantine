@@ -22,10 +22,21 @@ class Product {
     temp.innerHTML = `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name} - ${info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`.trim();
     
     for (let i = 0; i < temp.content.children.length; i++) {
-        // this.elem.appendChild(temp.content.children[i]);
-        product_list.innerHTML += temp.content.children[i].outerHTML;
+      this.elem.innerHTML += temp.content.children[i].outerHTML;
+      product_list.innerHTML += temp.content.children[i].outerHTML;
     }
 
+  }
+
+  show(bool) {
+    if (bool) {
+      let infos = document.createElement("div")
+      infos.innerText = this.info
+      this.elem.insertBefore(infos, this.elem)
+    }
+    else if (!bool) {
+    
+    }
   }
 }
 
@@ -42,9 +53,8 @@ class SpecialProduct {
     this.path = path;
     let file_name = path + ".webp";
 
-    WeeklyProduct.innerHTML += `<br><div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='${
-      name + " - " + info
-    }'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`;
+    WeeklyProduct.innerHTML += `<br><div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='
+    ${name} - ${info}'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`;
   }
 }
 
@@ -62,6 +72,7 @@ function info() {
     window.location.reload()
   } else if (infoActive == true) {
     infoActive = false;
+    showInfo();
     infoIcon.src = "./../src/icons/info-icon-black.svg";
   }
 }
@@ -93,31 +104,16 @@ weekly.push(
   )
 );
 
+
 /* ---- Products ---- */
 
-function showInfo() {
-  let width_wanted = 140;
+var style_wanted = "";
 
-  if (infoActive == true) {
-    class Product {
-      name;
-      info;
-      price;
-      constructor(name, price, info, path, style) {
-        this.name = name;
-        this.price = price;
-        this.info = info;
-        this.path = path;
-        let file_name = path + ".webp";
+var width_wanted = 0;
 
-        product_list.innerHTML += `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name} - ${price} kr'><p style="display:block; float:right">${name} - ${info}</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`;
-      }
-    }
-  }
+const products = [];
 
-  let style_wanted = `width: ${width_wanted}px;`;
-  const products = [];
-
+{
   products.push(
     new Product(
       "Appelsin Juice",
@@ -297,4 +293,19 @@ function showInfo() {
       `${style_wanted}`
     )
   );
+}
+
+
+function showInfo() {
+  width_wanted = 140;
+  
+  style_wanted = `width: ${width_wanted}px;`;
+
+  if (infoActive == true) {
+    
+  }
+  else if (infoActive == false) {
+
+  }
+
 }
