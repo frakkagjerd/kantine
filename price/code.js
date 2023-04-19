@@ -116,7 +116,7 @@ const products = [];
 {
   products.push(
     new Product(
-      "Appelsin Juice",
+      "Appelsinjuice",
       "44 kcal, Allergier: Ingen",
       "20",
       "appelsin-juice",
@@ -126,7 +126,7 @@ const products = [];
 
   products.push(
     new Product(
-      "Eple Juice",
+      "Eplejuice",
       "45 kcal, Allergier: Ingen",
       "20",
       "eple-juice",

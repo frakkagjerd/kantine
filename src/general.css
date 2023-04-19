@@ -69,20 +69,19 @@ ul {
     border-radius: 25px;
     height: 150px;
     width: 50%;
-    min-width: 250px;
+    min-width: 236px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     margin-left: 0px;
 }
 
 .users .information img {
-    height: 70%;
+    height: 80%;
     aspect-ratio: 1 / 1;
 }
 
 .users .information div {
-    height: 30%;
-    width: 80%;
+    height: 20%;
 }
 
 .users .user_name {
