@@ -5,11 +5,11 @@ Muligt av vi skal bruke MySQL og PHP også
 
 - Dark mode
 - Lage ferdig informasjon knappen
-- Lage ferdig ukensprodukt
+- Lage ferdig ukensprodukter
 - Tilpasse til mobil
 - Legge til forandring av bilde i priser og informasjon
 - Lage dem mer oversiktlig
-- Fikse grammatikfeil
+- Fikse grammatikk feil
 - Lage en database
 
 
@@ -18,3 +18,5 @@ Extra
 - Lage ferdig bestilling siden
 - Lage ferdig bestillingsvilkårene
 - Lage et lettere system for ukensprodukt
+
+
