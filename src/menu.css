@@ -17,6 +17,7 @@
     right: 0px;
     top: 0px;
     margin: 30px;
+    z-index: 1;
 }
 
 .info {
