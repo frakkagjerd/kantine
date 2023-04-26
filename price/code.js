@@ -122,18 +122,86 @@ products.push(new Product("Bestikk", "Laget av plastikk", "1", "bestikk", `${sty
 
 /* ---- Click Events ----*/
 
-var active = true;
+var active = false;
 
 function activate() {
   if (active) {
     active = false;
-    document.querySelector(".info").src = "./../src/icons/info-icon-white.svg";
-
-    document.querySelector("#appelsin-juice p").innerText = "Bye! GeeksforGeeks people";
-  } else {
-    active = true;
     document.querySelector(".info").src = "./../src/icons/info-icon-black.svg";
 
-    document.querySelector("#appelsin-juice p").innerText = "Hii! GeeksforGeeks people";
+    document.querySelector("#appelsin-juice p").innerText = "44 kcal, Allergier: Ingen";
+
+    document.querySelector("#eple-juice p").innerText = "45 kcal, Allergier: Ingen";
+
+    document.querySelector("#billys p").innerText = "44 kcal, Allergier: Gluten, melk";
+
+    document.querySelector("#gomorgen-skogsbær p").innerText = "119 kcal, Allergier: hvete, melk";
+
+    document.querySelector("#gomorgen-vanilje p").innerText = "123 kcal, Allergier: hvete, melk";
+
+    document.querySelector("#iskaffe-cappuccino p").innerText = "56 kcal, Allergier: melk";
+
+    document.querySelector("#iskaffe-mocha p").innerText = "40 kcal, Allergier: melk";
+
+    document.querySelector("#iskaffe-nocciola p").innerText = "42 kcal, Allergier: melk";
+
+    document.querySelector("#iste-fersken p").innerText = "29 kcal, Allergier: Ingen";
+
+    document.querySelector("#lettmelk-kakao p").innerText = "45 kcal, Allergier: melk";
+
+    document.querySelector("#litago-jordbær p").innerText = "55 kcal, Allergier: melk";
+
+    document.querySelector("#litago-sjokolade p").innerText = "46 kcal, Allergier: melk";
+
+    document.querySelector("#nudler-kjøtt p").innerText = "95 kcal, Allergier: Gluten, selleri og soya";
+
+    document.querySelector("#nudler-kylling p").innerText = "91 kcal, Allergier: Gluten, selleri og soya";
+
+    document.querySelector("#risgrøt p").innerText = "105 kcal, Allergier: melk";
+
+    document.querySelector("#rislunsj-bringebær p").innerText = "140 kcal, Allergier: melk";
+
+    document.querySelector("#rislunsj-jordbær p").innerText = "140 kcal, Allergier: melk";
+
+    document.querySelector("#bestikk p").innerText = "Laget av plastikk";
+  } else {
+    active = true;
+    document.querySelector(".info").src = "./../src/icons/info-icon-white.svg";
+
+    document.querySelector("#appelsin-juice p").innerText = "20";
+
+    document.querySelector("#eple-juice p").innerText = "20";
+
+    document.querySelector("#billys p").innerText = "23";
+
+    document.querySelector("#gomorgen-skogsbær p").innerText = "13";
+
+    document.querySelector("#gomorgen-vanilje p").innerText = "13";
+
+    document.querySelector("#iskaffe-cappuccino p").innerText = "18";
+
+    document.querySelector("#iskaffe-mocha p").innerText = "18";
+
+    document.querySelector("#iskaffe-nocciola p").innerText = "18";
+
+    document.querySelector("#iste-fersken p").innerText = "20";
+
+    document.querySelector("#lettmelk-kakao p").innerText = "10";
+
+    document.querySelector("#litago-jordbær p").innerText = "20";
+
+    document.querySelector("#litago-sjokolade p").innerText = "20";
+
+    document.querySelector("#nudler-kjøtt p").innerText = "25";
+
+    document.querySelector("#nudler-kylling p").innerText = "25";
+
+    document.querySelector("#risgrøt p").innerText = "30";
+
+    document.querySelector("#rislunsj-bringebær p").innerText = "13";
+
+    document.querySelector("#rislunsj-jordbær p").innerText = "13";
+
+    document.querySelector("#bestikk p").innerText = "1";
   }
 }
