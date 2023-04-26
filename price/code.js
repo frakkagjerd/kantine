@@ -19,8 +19,9 @@ class Product {
     this.path = path;
     let file_name = path + ".webp";
     let temp = document.createElement("template");
-    temp.innerHTML = `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name} - ${info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`.trim();
-    
+    temp.innerHTML =
+      `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name} - ${info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`.trim();
+
     for (let i = 0; i < temp.content.children.length; i++) {
       this.elem.innerHTML += temp.content.children[i].outerHTML;
       product_list.innerHTML += temp.content.children[i].outerHTML;
@@ -69,7 +70,6 @@ function info() {
     infoActive = true;
     infoIcon.src = "./../src/icons/info-icon-white.svg";
     showInfo();
-
   } else if (infoActive == true) {
     infoActive = false;
     showInfo();
@@ -79,7 +79,7 @@ function info() {
 
 /* ---- Weekly Product ----*/
 
-let width = 225;
+let width = 275;
 
 let style = `width: ${width}px;`;
 const weekly = [];
@@ -104,10 +104,9 @@ weekly.push(
   )
 );
 
-
 /* ---- Products ---- */
 
-var style_wanted = "";
+var style_wanted = "width: 250px";
 
 var width_wanted = 0;
 
@@ -295,17 +294,12 @@ products.push(
 );
 
 
-
 function showInfo() {
   width_wanted = 140;
-  
+
   style_wanted = `width: ${width_wanted}px;`;
 
   if (infoActive == true) {
-    
+  } else if (infoActive == false) {
   }
-  else if (infoActive == false) {
-
-  }
-
 }
