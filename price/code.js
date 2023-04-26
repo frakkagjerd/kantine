@@ -20,7 +20,12 @@ class Product {
     let file_name = path + ".webp";
     let temp = document.createElement("template");
     temp.innerHTML =
-      `<br><div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img style='${style}' src='../products/${file_name}' alt='${name} - ${info}'><p style="display:block; float:right">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`.trim();
+      `<br>
+      <div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}">
+        <img style='${style}' src='../products/${file_name}' alt='${name} - ${info}'>
+        <p style="display:block; float:right">${name} - ${price} kr</p>
+      </div>
+      <div style="margin-left:10%; margin-right: 10%; width: 5px; width: 80%; background-color: #777777;"></div>`.trim();
 
     for (let i = 0; i < temp.content.children.length; i++) {
       this.elem.innerHTML += temp.content.children[i].outerHTML;
@@ -51,8 +56,14 @@ class SpecialProduct {
     this.path = path;
     let file_name = path + ".webp";
 
-    WeeklyProduct.innerHTML += `<br><div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}"><img src="../src/images/UkensMeny.png" style="width: 400px; margin-right: -40%;  margin-top: -14%; position: absolute; transform: rotate(10deg);"><img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='
-    ${name} - ${info}'><p style="display:block; float:right;">${name} - ${price} kr</p></div><div style="margin-left:10%; margin-right: 10%; width:  5px; width: 80%; background-color: #777777;"></div>`;
+    WeeklyProduct.innerHTML += `
+    <br>
+    <div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}">
+      <img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='${name} - ${info}'>
+      <p style="display:block; float:right;">${name} - ${price} kr</p>
+      <img src="../src/images/UkensProdukt.png" style='width: 150px;  transform: rotate(10deg);' class='UkensMeny'>
+    </div>
+    <div style="margin-left:10%; margin-right: 10%; width: 5px; width: 80%; background-color: #777777;"></div>`;
   }
 }
 

@@ -171,3 +171,9 @@ ul {
 .products {
     text-align: center;    
 }
+
+.UkensMeny {
+    position: relative;
+    top: -100px;
+    right: -40px;
+}
