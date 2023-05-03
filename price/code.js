@@ -17,7 +17,7 @@ class Product {
     this.name = name;
     this.price = price;
     this.path = path;
-    let file_name = path + ".webp";
+    let file_name = path + ".png";
     let temp = `<br>
       <div style="display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}">
         <img style='${style}' src='../products/${file_name}' alt='${name} - ${info}'>
@@ -28,7 +28,7 @@ class Product {
         </div>
       </div>
       
-      <div style="margin-left:10%; margin-right: 10%; width: 5px; width: 80%; background-color: #777777;"></div>`.trim();
+      <div style="margin-left:10%; margin-right: 10%; margin-bottom: 5%; width: 5px; width: 80%; background-color: #777777;"></div>`.trim();
 
     product_list.innerHTML += temp;
   }
