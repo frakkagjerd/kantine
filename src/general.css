@@ -8,8 +8,9 @@ h1 {
 
 .background {
     background-image: url(../src/icons/background.svg);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-color: aqua;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
