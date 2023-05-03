@@ -19,3 +19,11 @@ Extra
 - Lage ferdig bestillingsvilkårene
 - Lage et lettere system for ukensprodukt
 
+
+---- Manus ----
+Begynne på starten
+Vi viser priser, informasjon og bestilling
+Vi forklarer hvordan vi vil at de skal fungere
+Vi viser menyen
+Vi forteller om problemer og mangler med nettsida
+Vise litt av koden (price og hoved)
