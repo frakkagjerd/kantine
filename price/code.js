@@ -45,7 +45,7 @@ class SpecialProduct {
     this.info = info;
     this.price = price;
     this.path = path;
-    let file_name = path + ".webp";
+    let file_name = path + ".png";
 
     WeeklyProduct.innerHTML += `
     <br>
@@ -71,7 +71,7 @@ weekly.push(new SpecialProduct("Brownies2", "657890 kcal, Allergier: Gluten", "2
 
 /* ---- Products ---- */
 
-var style_wanted = "width: 250px";
+var style_wanted = "width: 200px; margin-bottom: -25px";
 
 var width_wanted = 0;
 
@@ -82,7 +82,7 @@ const products = [];
 
   products.push(new Product("Eplejuice", "45 kcal, Allergier: Ingen", "20", "eple-juice", `${style_wanted}`));
 
-  products.push(new Product("Billys Pizza", "44 kcal, Allergier: Gluten, melk", "23", "billys", `${style_wanted}`));
+  products.push(new Product("Billys Pizza", "44 kcal, Allergier: Gluten, melk", "23", "billys", `width: 250px`));
 
   products.push(new Product("Go'Morgen® Skogsbær", "119 kcal, Allergier: hvete, melk", "13", "gomorgen-skogsbær", `${style_wanted}`));
 
