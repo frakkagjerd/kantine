@@ -52,7 +52,7 @@ class SpecialProduct {
     <div style="border: 6px solid; border-radius: 25px; width: 660px; height: 220px; margin: auto; display: flex; align-items: center; justify-content: center; font-family: 'Roboto';" id="${file_name}">
       <img style='${style} padding-right: 30px; ' src='../products/${file_name}' alt='${name} - ${info}'>
       <p style="display:block; float:right;">${name} - ${price} kr</p>
-      <img src="../src/images/UkensProdukt.png" style='width: 150px; position: relative; top: -100px; right: -40px; transform: rotate(10deg);' class='UkensMeny'>
+      <img src="../src/images/UkensProdukt.png" style='width: 150px; position: relative; top: -100px; right: -20px; transform: rotate(10deg);' class='UkensMeny'>
     </div>
     <div style="margin-left:10%; margin-right: 10%; width: 5px; width: 80%; background-color: #777777;"></div>`;
   }
