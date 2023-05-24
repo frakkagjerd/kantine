@@ -36,6 +36,19 @@ h1 {
     margin-left: 15%;
 }
 
+.header-price {
+    font-family: Roboto;
+    width: 70%;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    margin-right: 15%;
+    margin-left: 15%;
+
+    filter: blur(0px);
+}
+
 p {
     font-size: 35px;
     text-align: center;

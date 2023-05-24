@@ -17,7 +17,7 @@
     right: 0px;
     top: 0px;
     margin: 30px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .info {
@@ -31,13 +31,14 @@
 /* ---- Sidebar ---- */
 
 .sidebar {
-    position:fixed;
+    position: fixed;
     top: 0px;
     left: 100%;
     height: 100%;
     width: 100%;
-    background-color: #ffb020f6;
+    background-color: #ffb020f0;
     transition: 0.7s;
+    z-index: 1;
 }
 
 /* ---- Menu ---- */
