@@ -82,35 +82,35 @@ const products = [];
 
   products.push(new Product("Eplejuice", "45 kcal, Allergier: Ingen", "20", "eple-juice", `${style_wanted}`));
 
-  products.push(new Product("Billys Pizza", "44 kcal, Allergier: Gluten, melk", "23", "billys", `width: 250px`));
+  products.push(new Product("Billys Pizza", "44 kcal, Allergier: Gluten, Melk", "23", "billys", `width: 250px`));
 
-  products.push(new Product("Go'Morgen® Skogsbær", "119 kcal, Allergier: hvete, melk", "13", "gomorgen-skogsbær", `${style_wanted}`));
+  products.push(new Product("Go'Morgen® Skogsbær", "119 kcal, Allergier: Hvete, Melk", "13", "gomorgen-skogsbær", `${style_wanted}`));
 
-  products.push(new Product("Go'Morgen® Vanilje", "123 kcal, Allergier: hvete, melk", "13", "gomorgen-vanilje", `${style_wanted}`));
+  products.push(new Product("Go'Morgen® Vanilje", "123 kcal, Allergier: Hvete, Melk", "13", "gomorgen-vanilje", `${style_wanted}`));
 
-  products.push(new Product("IsKaffe - Cappuccino", "56 kcal, Allergier: melk", "18", "iskaffe-cappuccino", `${style_wanted}`));
+  products.push(new Product("IsKaffe - Cappuccino", "56 kcal, Allergier: Melk", "18", "iskaffe-cappuccino", `${style_wanted}`));
 
-  products.push(new Product("IsKaffe - Mocha", "40 kcal, Allergier: melk", "18", "iskaffe-mocha", `${style_wanted}`));
+  products.push(new Product("IsKaffe - Mocha", "40 kcal, Allergier: Melk", "18", "iskaffe-mocha", `${style_wanted}`));
 
-  products.push(new Product("IsKaffe - Nocciola", "42 kcal, Allergier: melk", "18", "iskaffe-nocciola", `${style_wanted}`));
+  products.push(new Product("IsKaffe - Nocciola", "42 kcal, Allergier: Melk", "18", "iskaffe-nocciola", `${style_wanted}`));
 
   products.push(new Product("TINE® IsTe Fersken", "29 kcal, Allergier: Ingen", "20", "iste-fersken", `${style_wanted}`));
 
-  products.push(new Product("Lettmelk Kakao", "45 kcal, Allergier: melk", "10", "lettmelk-kakao", `${style_wanted}`));
+  products.push(new Product("Lettmelk Kakao", "45 kcal, Allergier: Melk", "10", "lettmelk-kakao", `${style_wanted}`));
 
-  products.push(new Product("Litago Jordbær", "55 kcal, Allergier: melk", "20", "litago-jordbær", `${style_wanted}`));
+  products.push(new Product("Litago Jordbær", "55 kcal, Allergier: Melk", "20", "litago-jordbær", `${style_wanted}`));
 
-  products.push(new Product("Litago Sjokolade", "46 kcal, Allergier: melk", "20", "litago-sjokolade", `${style_wanted}`));
+  products.push(new Product("Litago Sjokolade", "46 kcal, Allergier: Melk", "20", "litago-sjokolade", `${style_wanted}`));
 
-  products.push(new Product("Nudler med kjøttsmak", "95 kcal, Allergier: Gluten, selleri og soya", "25", "nudler-kjøtt", `${style_wanted}`));
+  products.push(new Product("Nudler med kjøttsmak", "95 kcal, Allergier: Gluten, Soya", "25", "nudler-kjøtt", `${style_wanted}`));
 
-  products.push(new Product("Nudler med kyllingsmak", "91 kcal, Allergier: Gluten, selleri og soya", "25", "nudler-kylling", `${style_wanted}`));
+  products.push(new Product("Nudler med kyllingsmak", "91 kcal, Allergier: Gluten, Soya", "25", "nudler-kylling", `${style_wanted}`));
 
-  products.push(new Product("Risgrøt", "105 kcal, Allergier: melk", "30", "risgrøt", `${style_wanted}`));
+  products.push(new Product("Risgrøt", "105 kcal, Allergier: Melk", "30", "risgrøt", `${style_wanted}`));
 
-  products.push(new Product("Rislunsj Bringebær", "140 kcal, Allergier: melk", "13", "rislunsj-bringebær", `${style_wanted}`));
+  products.push(new Product("Rislunsj Bringebær", "140 kcal, Allergier: Melk", "13", "rislunsj-bringebær", `${style_wanted}`));
 
-  products.push(new Product("Rislunsj Jordbær", "140 kcal, Allergier: melk", "13", "rislunsj-jordbær", `${style_wanted}`));
+  products.push(new Product("Rislunsj Jordbær", "140 kcal, Allergier: Melk", "13", "rislunsj-jordbær", `${style_wanted}`));
 
   products.push(new Product("Bestikk", "Laget av plastikk", "1", "bestikk", `${style_wanted}`));
 
