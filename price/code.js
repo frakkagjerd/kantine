@@ -84,9 +84,9 @@ const products = [];
 
   products.push(new Product("Billys Pizza", "44 kcal per 100g, Allergier: Gluten, Melk", "23", "billys", `width: 250px`));
 
-  products.push(new Product("Go'Morgen® Skogsbær", "119 kcal per 100g, Allergier: Hvete, Melk. <br> Kan inneholde spor av: nøtter og sulfitt.", "13", "gomorgen-skogsbær", `${style_wanted}`));
+  products.push(new Product("Go'Morgen® Skogsbær", "119 kcal per 100g, Allergier: Hvete, Melk. Kan inneholde spor av: nøtter og sulfitt.", "13", "gomorgen-skogsbær", `${style_wanted}`));
 
-  products.push(new Product("Go'Morgen® Vanilje", "123 kcal per 100g, Allergier: Hvete, Melk. Allergier: Hvete, Melk. <br> Kan inneholde spor av: nøtter.", "13", "gomorgen-vanilje", `${style_wanted}`));
+  products.push(new Product("Go'Morgen® Vanilje", "123 kcal per 100g, Allergier: Hvete, Melk. Kan inneholde spor av: nøtter.", "13", "gomorgen-vanilje", `${style_wanted}`));
 
   products.push(new Product("IsKaffe - Cappuccino", "56 kcal per 100g, Allergier: Melk.", "18", "iskaffe-cappuccino", `${style_wanted}`));
 
